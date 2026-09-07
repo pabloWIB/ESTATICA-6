@@ -2,7 +2,7 @@
 
 Static two-page site for Dinnance, a fictional online real estate advisor: a landing page and a sign-in screen. No build step, no dependencies, no framework.
 
-[![Live demo](https://img.shields.io/badge/demo-dinnance.wib.digital-2ea44f)](https://dinnance.wib.digital)
+[![Live demo](https://img.shields.io/badge/demo-pablowib.github.io/Dinnance-Landing-2ea44f)](https://pablowib.github.io/Dinnance-Landing)
 [![Hire me on Fiverr](https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/pablonietop)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![Build step](https://img.shields.io/badge/build%20step-none-lightgrey)
@@ -80,7 +80,7 @@ python -m http.server 8000
 
 ## Deployment
 
-Deployed on Vercel at [dinnance.wib.digital](https://dinnance.wib.digital). Static: point the project at the repository root, no build command, no output directory, no configuration file. Vercel serves `404.html` for unknown paths automatically.
+Deployed on GitHub Pages at [pablowib.github.io/Dinnance-Landing](https://pablowib.github.io/Dinnance-Landing). Static: point the project at the repository root, no build command, no output directory, no configuration file. GitHub Pages serves `404.html` for unknown paths automatically.
 
 Canonical URLs and `sitemap.xml` use the `.html` suffix because the deployment serves `/sign-in.html` directly and returns 404 for `/sign-in`.
 
